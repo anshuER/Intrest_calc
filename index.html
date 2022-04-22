@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BANK CALC</title>
+    <link href="index.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div class="bank-balance-display">
+      <table>
+        <tr>
+          <th>Account Holder Name</th>
+          <th>Current Account Balance</th>
+          <th>Balance After Interest</th>
+        </tr>
+        <tr>
+          <td>Anshu</td>
+          <td><input type="number" id="bal1"></td>
+          <td><input type="number" id="val1" disabled></td>
+        </tr>
+        <tr>
+          <td>Rutvik</td>
+          <td><input type="number" id="bal2"></td>
+          <td><input type="number" id="val2" disabled></td>
+        </tr>
+        <tr>
+          <td>Prasang</td>
+          <td><input type="number" id="bal3"></td>
+          <td><input type="number" id="val3" disabled></td>
+        </tr>
+      </table>
+      <button onclick="calc()">click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
